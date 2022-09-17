@@ -1,0 +1,34 @@
+body{
+    padding: 10px;
+}
+
+.options{
+    text-align: right;
+}
+
+.container{
+    text-align: center;
+    padding-top: 7%;
+    touch-action: initial;
+    touch-action: double-tap-zoom;
+}
+
+.search{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search > input{
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border:solid 1px lightgray;
+    padding:5px;
+    width: 550px;
+    height: 45px;
+    padding-inline-start: 50px;
+}
+
+.button{
+    text-align: center;
+    padding: 5px;
+}

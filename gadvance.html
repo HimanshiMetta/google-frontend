@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="icon" type="image/png" sizes="16×16" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png">
+        <title>
+            Google Advanced Search
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="gadstyles.css">
+    </head>
+    <body>
+        <div class="gadimage">
+            <a href="index.html">
+                <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="31px">
+            </a>
+        </div>
+        <div class = "gadform">
+            <form action="https://google.com/search">
+                <div style="color: #d93025; font-size: 20px; padding-top: 20px; font-family: arial,sans-serif;">
+                    Advanced Search
+                    <hr>
+                </div>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <div style = "font-size: 17px;">Find pages with...</div>
+                        </td>
+                        <td></td>
+                        <td>
+                            <div style = "font-size: 14px; color: grey;"><b>To do this in the search box.</b></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>all these words: </td>
+                        <td><input type="search" name = "as_q"></td>
+                        <td>
+                        <div class="tips">
+                            Type the important words: tri-colour rat terrier
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>this exact word or phrase:</td>
+                        <td><input type="search" name = "as_epq"></td>
+                        <td>
+                        <div class="tips">
+                            Put exact words in quotes: "rat terrier"
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td><input type="search" name = "as_oq"></td>
+                        <td>
+                        <div class="tips">
+                            Type OR between all the words you want: miniature OR standard
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td>
+                        <td><input type="search" name = "as_nlo"></td>
+                        <td>
+                        <div class="tips">
+                            Put a minus sign just before words that you don't want: <br>-rodent, -"Jack Russell"
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div style="text-align: right;"><input type="submit" value="Advanced Search" class="btn btn-primary"></div>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
