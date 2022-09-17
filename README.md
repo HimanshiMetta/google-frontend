@@ -2,7 +2,6 @@ A frontend project that has the same UI look and feel as Google search page and 
 
 ![Screenshot 2022-09-17 at 18-03-27 Google](https://user-images.githubusercontent.com/67338706/190859167-4bf8fd90-b877-4fa6-a701-d186337f7c82.png)
 
-![Screenshot 2022-09-17 at 17-52-32 Google](https://user-images.githubusercontent.com/67338706/190856708-2d7e3cd5-33c5-49ca-8767-64a8410f94ed.png)
 ![Screenshot 2022-09-17 at 18-00-11 Cats - Google Search](https://user-images.githubusercontent.com/67338706/190856832-9f7750fe-530c-4ac1-8571-ad361fd978b1.png)
 
 ![Screenshot 2022-09-17 at 17-53-42 Google Images](https://user-images.githubusercontent.com/67338706/190856714-884e6893-4d39-43fb-a07d-771da63b6ac1.png)
